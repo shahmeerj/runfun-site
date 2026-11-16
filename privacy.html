@@ -19,7 +19,7 @@ footer{margin-top:48px;color:var(--muted);font-size:14px}
 <body><main><header><img src="icon.png" alt=""><a href="./">Run Fun</a></header>
 
 <h1>Privacy policy</h1>
-<p class="meta">Last updated: 13 November 2026</p>
+<p class="meta">Last updated: 16 November 2026</p>
 <p>This policy explains what the Run Fun app ("Run Fun", "we") collects, why, who can see it, and how to delete it. Run Fun is developed by Space Out (Shahmeer Alamtab). Questions: <a href="mailto:shahmeer.alamtab@gmail.com">shahmeer.alamtab@gmail.com</a>.</p>
 
 <h2>What we collect</h2>
@@ -32,6 +32,9 @@ footer{margin-top:48px;color:var(--muted);font-size:14px}
 <tr><td><b>Reactions and comments</b> you leave on runs</td><td>So friends can cheer each other on</td><td>Anyone who can see that run. You can delete your own comments, and any comment on your own runs.</td></tr>
 <tr><td><b>Messages and voice notes</b> (microphone, only when you hold to record)</td><td>Lobby chat</td><td>Members of that lobby</td></tr>
 <tr><td><b>Friends list</b></td><td>To add friends and see who you have run with</td><td>You and the friend in question</td></tr>
+<tr><td><b>Groups</b>: groups you create or join, your role, scheduled runs and whether you said you&rsquo;re in</td><td>Group pages, scheduled runs, reminders and group statistics (total distance, leaderboards)</td><td>Members of that group. Group admins can remove members.</td></tr>
+<tr><td><b>Notification token</b> for your phone, and your notification settings</td><td>To send the push notifications you&rsquo;ve allowed (group runs, reminders, friend requests, nearby runs). Sent through Expo&rsquo;s push service and Apple/Google</td><td>Only you</td></tr>
+<tr><td><b>Approximate location</b> (rounded to about 1 km), only if you turn on &ldquo;Open runs nearby&rdquo;</td><td>To tell you about public runs starting within 5 km. Updated when you open the app; never tracked in the background</td><td>Only you. Turn it off any time in Profile &rarr; Notifications.</td></tr>
 <tr><td><b>Reports and blocks</b>: if you report a message, comment or runner, or block someone</td><td>To keep the community safe and review abuse</td><td>Reports: only the developer. Blocks: only you. The other person is not told.</td></tr>
 <tr><td><b>Photos</b> you pick for your profile picture</td><td>Profile photo only. We never read your other photos.</td><td>Other Run Fun users</td></tr>
 </table>
@@ -43,7 +46,8 @@ footer{margin-top:48px;color:var(--muted);font-size:14px}
 <li><b>Supabase</b>: database, sign-in and file storage (data is encrypted in transit and at rest)</li>
 <li><b>Google</b>: "Sign in with Google" and map display on Android (Google Maps)</li>
 <li><b>Apple</b>: "Sign in with Apple" and map display on iPhone (Apple Maps)</li>
-<li><b>Expo</b>: app builds and updates</li>
+<li><b>Expo</b>: app builds, updates and delivering push notifications</li>
+<li><b>Apple Push Notification service and Google Firebase Cloud Messaging</b>: delivering push notifications to your phone</li>
 </ul>
 
 <h2>Retention and deletion</h2>
